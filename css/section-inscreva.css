@@ -1,0 +1,35 @@
+.inscrever{
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+    max-height: 100vh;
+}
+.inscrever .text-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.inscrever .text-main h1, h2{
+    color: white;
+    font-size: 5em;
+    text-transform: uppercase;
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.507);
+}
+.inscrever .text-main h2{
+    color: rgb(20, 214, 85);
+}
+.button-insc{
+    border: none;
+    margin-top: 3em;
+    padding: 1em 2em;
+    border-radius: 10px;
+    background-color:#46989D;
+    color: white;
+    text-decoration: none;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.411);
+}
+

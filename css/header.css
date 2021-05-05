@@ -1,0 +1,31 @@
+body{
+    background-image: url(../img/destaque.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+/*UL*/
+.header ul{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+/*Itens da UL*/
+.header .nav-main .item-nav{
+    margin-left:10px;
+    list-style: none;
+    background-color:rgba(0, 0, 0, 0.1);
+    border-radius: 5%;
+    padding: 0.8em;
+    transition: 0.5s background-color;
+}
+/*Links*/
+.header .nav-main .item-nav a{
+    font-family: sans-serif;
+    text-transform: uppercase;
+    color: white;
+    text-decoration: none;
+}
+/*------------------------------------*/
+.header .nav-main .item-nav:hover {
+    background-color:#46989D;
+}
