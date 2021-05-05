@@ -18,18 +18,48 @@
     text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.507);
 }
 .inscrever .text-main h2{
-    color: rgb(20, 214, 85);
+    color: #64FF64;
 }
 .button-insc{
     border: none;
-    margin-top: 3em;
+    margin: 1em 0;
     padding: 1em 2em;
     border-radius: 10px;
     background-color:#46989D;
     color: white;
     text-decoration: none;
-    font-size: 1.5em;
+    font-size: 2em;
+    max-width: 600px;
+    max-height: 300px;
     text-transform: uppercase;
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.411);
+}
+.button-insc:hover{
+    cursor: pointer;
+}
+@media screen and (min-width:0px){
+	body{
+        font-size: .7em;
+    }
+    
+}
+@media screen and (min-width: 960px){
+	body{
+        font-size: 1em;
+    }
+    .header{
+        font-size: 1.1em;
+    }
+}
+@media screen and (min-width: 1360px){
+	body{
+        font-size: 2em;
+    }
+    .button-insc{
+        font-size: 1em;
+    }
+    .header{
+        font-size: .5em;
+    }
 }
 
