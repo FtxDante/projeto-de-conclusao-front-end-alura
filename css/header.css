@@ -1,7 +1,7 @@
-body{
-    background-image: url(../img/destaque.jpeg);
+.hero{
+    background-image: url(/img/destaque.jpeg);
     background-size: cover;
-    background-repeat: no-repeat;
+    height: 50vh;
 }
 /*UL*/
 .header ul{
@@ -9,6 +9,7 @@ body{
     justify-content: center;
     padding: 10px;
 }
+
 /*Itens da UL*/
 .header .nav-main .item-nav{
     margin-left:10px;
@@ -17,6 +18,9 @@ body{
     border-radius: 5%;
     padding: 0.8em;
     transition: 0.5s background-color;
+}
+.header .nav-main .item-nav:hover {
+    background-color:#46989D;
 }
 /*Links*/
 .header .nav-main .item-nav a{
@@ -28,6 +32,9 @@ body{
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.479);
 }
 /*------------------------------------*/
-.header .nav-main .item-nav:hover {
-    background-color:#46989D;
+
+@media screen and (max-width: 960px) {
+    .hero{
+        height: 50vh;
+    }
 }

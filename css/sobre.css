@@ -1,0 +1,24 @@
+/*DIV SOBRE*/
+.div-sobre .sobre{
+    margin: 25px;
+    font-size: 1.5em;
+    text-align: center;
+    min-height: 300px;
+    line-height: 35px;
+}
+/*DIV-SOBRE-ESPECIFICAÇÕES-DE-TEXTO*/
+.div-sobre .sobre h2{
+    font-size: 2em;
+}
+.div-sobre .sobre h3{
+    font-size: 1.5em;
+}
+.div-sobre .sobre p, .div-sobre .sobre h2, .div-sobre .sobre h3 {
+    margin-top: 10px;
+}
+/*MEDIAQUERIE, MOBILE*/
+@media screen and (max-width:460px) {
+    .div-sobre .sobre {
+        font-size: 1.2em;
+    }
+}
