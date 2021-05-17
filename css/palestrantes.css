@@ -1,0 +1,68 @@
+/*Div palestrantes*/
+.div-palestrantes{
+    background-color: #f17e50;
+}
+/*Sessao palestrantes*/
+.div-palestrantes .sessao-palestrantes{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.div-palestrantes .sessao-palestrantes h2{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 2em;
+    color: white;
+    margin: 20px 0 20px 0;
+}
+.div-palestrantes .sessao-palestrantes h3{
+    color: white;
+    font-size: 1.5em;
+    margin: 20px 0 20px 0;
+}
+/*Lista de Palestrantes*/
+.div-palestrantes .palestrantes-atuais{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.div-palestrantes .palestrantes-atuais .palestrantes-itens{
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    height: 300px;
+    overflow: hidden;
+    width: 250px;
+    vertical-align: top;
+    transition: 0.5s;
+    padding: 10px;
+}
+.div-palestrantes .palestrantes-itens:hover{
+    height: 400px;
+}
+.div-palestrantes .palestrantes-itens img{
+    background-color: #d5d7e1;
+    border-radius: 50%;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    color: white;
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+}
+/*Descrição*/
+.nome-palestrante{
+    margin: 15px 0 15px 0;
+}
+.area-atuacao{
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+@media screen and (min-width: 1366px){
+	.div-palestrantes{
+        height: 100vh;
+    }
+}

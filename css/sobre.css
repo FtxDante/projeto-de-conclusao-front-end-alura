@@ -1,4 +1,9 @@
 /*DIV SOBRE*/
+.div-sobre{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .div-sobre .sobre{
     margin: 25px;
     font-size: 1.5em;
