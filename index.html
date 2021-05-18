@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="/css/sobre.css">
     <link rel="stylesheet" href="/css/palestrantes.css">
     <link rel="stylesheet" href="/css/padrao.css">
+    <link rel="stylesheet" href="/css/seusdados.css">
     
 </head>
 <body>
@@ -18,8 +19,8 @@
         <header class="header">
             <nav class="nav-main">
                 <ul>
-                    <li class="item-nav"><a href="#">sobre</a></li>
-                    <li class="item-nav"><a href="#">palestrantes</a></li>
+                    <li class="item-nav"><a href="#sobre">sobre</a></li>
+                    <li class="item-nav"><a href="#palestrantes">palestrantes</a></li>
                 </ul>
             </nav>
         </header>
@@ -30,15 +31,15 @@
                 <h1>aluraconf</h1>
                 <h2>30maio|rio</h2>
     
-                <form method="get" action="#">
-                    <button type="submit" class="button-insc">Inscreva-se</button>
+                <form method="get" action="#inscrever">
+                    <button type="submit" class="button-padrao">Inscreva-se</button>
                 </form>
             </div>
         </section>
     </div>
     
     
-    <div class="div-sobre">
+    <div class="div-sobre" id="sobre">
         <section class="sobre container" >
             <h2>Muito Conteúdo: do frontend ao backend</h2>
             <h3>30 de Maio de 2017 - na Cidade Maravilhosa</h3>
@@ -47,7 +48,7 @@
         </section>
     </div>
 
-    <div class="div-palestrantes">
+    <div class="div-palestrantes" id="palestrantes">
         <section class="sessao-palestrantes">
 
             <h2>Palestrantes</h2>
@@ -111,6 +112,17 @@
                 </ul>
             </div> 
         </section>
+    </div>
+
+    <div class="seus-dados" id="inscrever">
+        <h2 class="h2-seus-dados">Seus Dados</h2>
+        <form action="#" class="form-seus-dados">
+            <label for="nome" class="label-nome label-padrao">Nome</label>
+            <input type="text" id="nome" required class="input-seus-dados">
+            <label for="email" class="label-email label-padrao">Email</label>
+            <input type="email" id="email" required class="input-seus-dados">
+            <button class="button-padrao">Realizar Inscrição</button>
+        </form>
     </div>
     
     
