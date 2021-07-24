@@ -6,6 +6,13 @@
  
  Essa versão foi **inteiramente feita por mim**, sem qualquer auxilio do instrutor, tentei fazer o mais parecido possível com a versão original.
  ***
+ ### Tecnologias usadas:
+ * HTML5
+ * CSS3
+ * Flexbox
+
+***
+ 
  ### Video:
  Aqui você pode ver como ficou o site 
  
